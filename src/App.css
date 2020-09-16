@@ -1,0 +1,159 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+body{
+  text-align: center;
+  font-size: 18px;
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#root{
+  max-width: 900px;
+  margin: 0 auto;
+  width: 900px;
+}
+
+header{
+  margin: 40px 0px;
+}
+
+header .title img {
+  width: 40px;
+  height: auto;
+}
+
+header .title h1{
+  font-size: 40px;
+  display: inline;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+header .title:after{
+  content: "";
+  border-top: 3px solid #000;
+  display: block;
+  width: 150px;
+  margin: 25px auto;
+}
+
+header p{
+  margin: 40px auto;
+  font-size: 20px;
+}
+.card{
+  width: 30%;
+  display: inline-block;
+  margin : 10px 10px;
+}
+
+.card .big-photo{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.card .name{
+  font-size: 21px;
+  font-weight: lighter;
+  margin: 0px auto;
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  width: 200px;
+}
+.card .university{
+  color: lightgray;
+  margin: 10px 0px;
+}
+.extendedcard{
+  position: absolute; 
+  margin-top : -220px;
+  width:450px;
+  height: 200px;
+  z-index:99; 
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  background-color: white
+}
+
+.extendedcard .info{
+  display: block;
+  text-align: left;
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 65%;
+}
+
+.extendedcard .photo{
+  width: 130px;
+  height: 130px;
+  margin-left:290px;
+  margin-top: -70px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.extendedcard .close-button{
+  width: 34px;
+  margin-left: 400px;
+  margin-top: 10px;
+}
+
+.extendedcard .extendedname{
+font-size: 30px;
+}
+.extendedcard .birthday-label{
+  color: gray;
+  display: inline;
+}
+.extendedcard .birthday{
+  display: inline;
+}
+.extendedcard .schoolLabel{
+  color: gray;
+  display: inline-block;
+}
+.extendedcard .school{
+  display: inline-block;
+  margin-left: 80px;
+}
+
+
+
+
